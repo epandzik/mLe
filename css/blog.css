@@ -71,6 +71,24 @@ p {
     font-size: 1em;
 }
 
+.thumb {
+    padding-top: -1.705%;
+    padding-bottom: 1.705%;
+    float:left;
+    width: 100%;
+    padding-left: 6.82%;
+    padding-right: 15.91%;
+    height:auto;
+    list-style:none;
+    text-style: bold;
+    white-space: nowrap;
+    background-color: white;
+}
+
+.thumb img {
+    margin-right: 3.41%;
+}
+    
 /* unvisited and visited links */
 a:link,
 a:visited {

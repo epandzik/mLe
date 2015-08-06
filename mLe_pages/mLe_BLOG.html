@@ -28,6 +28,11 @@
     <script type="text/javascript" src="../assets/fancybox_source/helpers/jquery.fancybox-thumbs.js"></script>
     
     <script type="text/javascript" src="../assets/fancybox_source/jquery.fancybox.pack.js"></script>  
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
     
 <title>m.L.e. BLOG</title>
 </head>
@@ -50,99 +55,41 @@
 <p>Next morning I’m much less frustrated, back at work with a higher level of sleep and well-caffeinated. I call in again and am referred to the various FAQs (<a href="http://help.hubspot.com/articles/KCS_Article/Email/Why-do-emails-look-different-in-Outlook">Why do emails look different in Outlook?, </a><a href="http://help.hubspot.com/articles/KCS_Article/Why-is-the-spacing-different-in-Outlook-versus-other-email-clients">Why is the spacing different in Outlook vs other email clients? and </a><a href="http://help.hubspot.com/articles/KCS_Article/Why-are-margins-and-padding-around-my-image-not-rendering-in-Outlook">Why are margins and padding around my image not rendering in Outlook?</a>) describing how HubSpot can’t control how Outlook renders its emails. Now, having already had this conversation with my boss, I know that that "it can't" is not an acceptable answer.</p>
 <p>So I go through the FAQs and find that there is one <a href="https://www.campaignmonitor.com/css/">link</a> on one of the pages that refers me to Various Styling on Web Client. I find a lovely table that confirms, yes — Outlook destroys styling. Basically I can use tables and margins. That’s it.</p>
 <p>I go back to the drawing board (rather the Template Builder on HubSpot) and make each of the modules into tables rather than inserting the image into the text and styling the text separately. Again, the Preview looks great. So I send it through Litmus and have an even more macabre pile of versions in Outlook.</p>
+ 
+<div class=thumb>    
+    <a class="fancybox" rel="group" href="../assets/ImageLibrary/HubSpot_Blog/AnalyzeTest_code/Outlook2000.png"><img src="../assets/ImageLibrary/HubSpot_Blog/AnalyzeTest_code/Outlook2000_50x50.jpg" title="Outlook 2000" alt="Outlook 2000" /></a>
 
-<div id="thumbsContainer">    
-    <div id="alignRow1">
-        <div class="visible">
-            <div class="single-thumb">
-                    <a class="fancybox" rel="group" title="Cover illustrating the feature of the magazine." href="../assets/ImageLibrary/FullSize/cellCover1.jpg">
-                        <img src="../assets/ImageLibrary/Thumbs/cellCover1_thumb200x200.jpg" alt="Cell Magazine Cover" /></a>
-            </div>
-        </div>    
-            <div class="hidden">
-                <div class="single-thumb">
-                    <a class="fancybox" rel="group" title="Cover illustrating the feature of the magazine." href="../assets/ImageLibrary/FullSize/cellCover2.jpg">
-                        <img src="../assets/ImageLibrary/Thumbs/cellCover2_thumb200x200.jpg" alt="Cell Magazine Cover 2"/></a>
-                </div>
-            </div>
-        <div class="minMargin"></div>
-        <div class="visible">
-            <div class="single-thumb">
-                    <a class="fancybox" rel="group" title="Photograph showing the package and it's contents." href="../assets/ImageLibrary/FullSize/fafFull.jpg">
-                        <img src="../assets/ImageLibrary/Thumbs/fafFull_thumb200x200.jpg" alt="Fix-A-Flat, full" /></a>
-            </div>         
-        </div>
-            <div class="hidden">
-                <div class="single-thumb">
-                    <a class="fancybox" rel="group" title="Shows the exterior of the package." href="../assets/ImageLibrary/FullSize/fafOuter.jpg">
-                        <img src="../assets/ImageLibrary/Thumbs/fafOuter_thumb200x200.jpg" alt="Fix-A-Flat, outer"/></a>
-                </div>
-            </div>
-            <div class="hidden">
-                <div class="single-thumb">
-                    <a class="fancybox" rel="group" title="Close up of the typography of the package." href="../assets/ImageLibrary/FullSize/fafTop.jpg">
-                        <img src="../assets/ImageLibrary/Thumbs/fafTop_thumb200x200.jpg" alt="Fix-A-Flat, top"/></a>
-                </div>
-            </div>
-        <div class="minMargin"></div>        
-        <div class="visible">
-            <div class="single-thumb">
-                    <a class="fancybox" rel="group" title="Party invitation, showing it closed as it arrives." href="../assets/ImageLibrary/FullSize/inviteClosed.jpg">
-                        <img src="../assets/ImageLibrary/Thumbs/inviteClosed_thumb200x200.jpg" alt="Party Invite, closed"/></a>
-            </div>
-        </div>    
-            <div class="hidden">
-                <div class="single-thumb">
-                    <a class="fancybox" rel="group" title="Party invitation after it has been opened." href="../assets/ImageLibrary/FullSize/inviteShadow.jpg">
-                        <img src="../assets/ImageLibrary/Thumbs/inviteShadow_thumb200x200.jpg" alt="Party Invite, open and casting shadow"/></a>
-                </div>
-            </div>
-        <div class="minMargin"></div>        
-        <div class="visible">
-            <div class="single-thumb">
-                    <a class="fancybox" rel="group" title="The Portland Bungalow Show 2008 poster." href="../assets/ImageLibrary/FullSize/pbsPoster.jpg">
-                        <img src="../assets/ImageLibrary/Thumbs/pbsPoster_thumb200x200.jpg" alt="2008 Poster"/></a>
-            </div>
-        </div>    
-            <div class="hidden">
-                <div class="single-thumb">
-                    <a class="fancybox" rel="group" title="The Portland Bungalow Show 2009 Save the Date postcard." href="../assets/ImageLibrary/FullSize/pbsPostcard.jpg">
-                        <img src="../assets/ImageLibrary/Thumbs/pbsPostcard_thumb200x200.jpg" alt="2009 Save the Date Postcard"/></a>
-                </div>
-            </div>
-            <div class="hidden">
-                <div class="single-thumb">
-                    <a class="fancybox" rel="group" title="The Portland Bungalow Show Logo" href="../assets/ImageLibrary/FullSize/pbsLogo.jpg">
-                        <img src="../assets/ImageLibrary/Thumbs/pbsLogo_thumb200x200.jpg" alt="Vector Logo"/></a>
-                </div>
-            </div>
-    </div>    
-    
-    
-<!--        <img src="../assets/ImageLibrary/HubSpot_Blog/AnalyzeTest_code/Outlook2000_50x50.jpg" data-large="../assets/ImageLibrary/HubSpot_Blog/AnalyzeTest_code/Outlook2000.png" alt="Outlook 2000" />
+    <a class="fancybox" rel="group" href="../assets/ImageLibrary/HubSpot_Blog/AnalyzeTest_code/Outlook2002.png"><img src="../assets/ImageLibrary/HubSpot_Blog/AnalyzeTest_code/Outlook2002_50x50.jpg" title="Outlook 2002" alt="Outlook 2002" /></a>         
 
-
-        <a title="Outlook 2002" href="../assets/ImageLibrary/HubSpot_Blog/AnalyzeTest_code/Outlook2002.png">
-        <img src="../assets/ImageLibrary/HubSpot_Blog/AnalyzeTest_code/Outlook2002_50x50.jpg" alt="Outlook 2002" />
-           
-
-        <a title="Outlook 2003" href="../assets/ImageLibrary/HubSpot_Blog/AnalyzeTest_code/Outlook2003.png">
-        <img src="../assets/ImageLibrary/HubSpot_Blog/AnalyzeTest_code/Outlook2003_50x50.jpg" alt="Outlook 2003" />
+    <a class="fancybox" rel="group" href="../assets/ImageLibrary/HubSpot_Blog/AnalyzeTest_code/Outlook2003.png"><img src="../assets/ImageLibrary/HubSpot_Blog/AnalyzeTest_code/Outlook2003_50x50.jpg" title="Outlook 2003" alt="Outlook 2003" /></a>
          
 
-        <a title="Outlook 2007" href="../assets/ImageLibrary/HubSpot_Blog/AnalyzeTest_code/Outlook2007.png">
-        <img src="../assets/ImageLibrary/HubSpot_Blog/AnalyzeTest_code/Outlook2007_50x50.jpg" alt="Outlook 2007" />
+    <a class="fancybox" rel="group" href="../assets/ImageLibrary/HubSpot_Blog/AnalyzeTest_code/Outlook2007.png"><img src="../assets/ImageLibrary/HubSpot_Blog/AnalyzeTest_code/Outlook2007_50x50.jpg" title="Outlook 2007" alt="Outlook 2007" /></a>
 
-        <a title="Outlook 2010" href="../assets/ImageLibrary/HubSpot_Blog/AnalyzeTest_code/Outlook2010.png">
-        <img src="../assets/ImageLibrary/HubSpot_Blog/AnalyzeTest_code/Outlook2010_50x50.jpg" alt="Outlook 2010" />
+    <a class="fancybox" rel="group" href="../assets/ImageLibrary/HubSpot_Blog/AnalyzeTest_code/Outlook2010.png"><img src="../assets/ImageLibrary/HubSpot_Blog/AnalyzeTest_code/Outlook2010_50x50.jpg" title="Outlook 2010" alt="Outlook 2010" /></a>
 
-        <a title="Outlook 2013" href="../assets/ImageLibrary/HubSpot_Blog/AnalyzeTest_code/Outlook2013.png">
-        <img src="../assets/ImageLibrary/HubSpot_Blog/AnalyzeTest_code/Outlook2013_50x50.jpg" alt="Outlook 2013" />-->
- 
+    <a class="fancybox" rel="group" href="../assets/ImageLibrary/HubSpot_Blog/AnalyzeTest_code/Outlook2013.png"><img src="../assets/ImageLibrary/HubSpot_Blog/AnalyzeTest_code/Outlook2013_50x50.jpg" title="Outlook 2013" alt="Outlook 2013" /></a>
+</div>    
+
 <p>At this point, I’m just about ready to slap my computer and call it names. But I take a tour of the office and think about anything but this for a few minutes. Blanking out my brains sometimes allows ideas to float up, and this was one of those times.</p>
 <p>I get rid of their many modules and make one table in one module. This actually works! A bit more styling (and editing) also fixes my mobile issue.</p>
     
+<div class=thumb>    
+    <a class="fancybox" rel="group" href="../assets/ImageLibrary/HubSpot_Blog/HubSpot_Images/module.png"><img src="../assets/ImageLibrary/HubSpot_Blog/HubSpot_Images/module50x50.jpg" title="HubSpot Module View" alt="HubSpot Module View" /></a>
     
+    <a class="fancybox" rel="group" href="../assets/ImageLibrary/HubSpot_Blog/HubSpot_Images/interface.png"><img src="../assets/ImageLibrary/HubSpot_Blog/HubSpot_Images/interface50x50.jpg" title="HubSpot Interface View" alt="HubSpot Interface View" /></a>
+
+    <a class="fancybox" rel="group" href="../assets/ImageLibrary/HubSpot_Blog/HubSpot_Images/emailAlmost.png"><img src="../assets/ImageLibrary/HubSpot_Blog/HubSpot_Images/emailAlmost50x50.jpg" title="Almost Done Email" alt="Almost Done Email" /></a>
+    
+    <a class="fancybox" rel="group" href="../assets/ImageLibrary/HubSpot_Blog/HubSpot_Images/email.png"><img src="../assets/ImageLibrary/HubSpot_Blog/HubSpot_Images/email50x50.jpg" title="Outlook, email 1" alt="Outlook, email 2" /></a>
+
+    <a class="fancybox" rel="group" href="../assets/ImageLibrary/HubSpot_Blog/HubSpot_Images/email2.png"><img src="../assets/ImageLibrary/HubSpot_Blog/HubSpot_Images/email2_50x50.jpg" title="Outlook, email 2" alt="Outlook, email 2" /></a>
+
+    <a class="fancybox" rel="group" href="../assets/ImageLibrary/HubSpot_Blog/HubSpot_Images/email3.png"><img src="../assets/ImageLibrary/HubSpot_Blog/HubSpot_Images/email3_50x50.jpg" title="Outlook, email 3" alt="Outlook, email 3" /></a>
+</div>    
+
+    
+<p>TL;DR Tables still have a point. While they sprung from the ether of the Internet and had been abandoned mostly through CSS/HTML updates, as long as roughly 35% of users have Outlook we will still need to know how to code them. And nested tables, while esoteric, are as necessary as inline styles are to make e-blasts look good in Outlook.</p>    
     
 <h1>My blog...</h1>
 <h2>07.29.2015</h2>    
