@@ -58,11 +58,11 @@
 }
 
 #fancybox-buttons a.btnPrev {
-	background-position: 5px 0;
+	background-position: -90px 0;
 }
 
 #fancybox-buttons a.btnNext {
-	background-position: -33px 0;
+	background-position: 90px 0;
 	border-right: 1px solid #3e3e3e;
 }
 
