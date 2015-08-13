@@ -3,8 +3,8 @@ h1 {
     color: #000000;
     font-size: 2.75vw;
     padding-left: 6.82%;
-    padding-right: 15.91%;
-    margin-top: 2.5vw;
+    padding-right: 15.91%;    
+    margin-top: -44px;
 }
 
 h2 {
@@ -31,6 +31,15 @@ p {
     padding-bottom: 1.705%;
     font-size: 2vw;
 }
+
+/*
+.navList + h1,
+.navList + h2,
+.navList + h3,
+.navList + p {
+    color:red;
+}
+*/
 
 body {
     width: 100%;
@@ -72,7 +81,7 @@ span#swap {
     justify-content: space-between;
     padding-left: 6.82%;
     padding-right: 15.91%;
-    margin-bottom: 3.41%;
+/*    margin-bottom: 3.41%;*/
     height:auto;
     list-style:none;
     font-size: 3.25vw;
